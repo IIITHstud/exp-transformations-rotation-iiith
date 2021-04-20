@@ -2,7 +2,7 @@ Rotation transformation rotates points about an axis through the origin. Rotatio
 
 Rotation is performed by multiplying the point with a Rotation Matrix. There are specific matrices for rotations about X, Y and Z axes.
 
-<img src="images/rotation-matrix.png"">
+<img src="images/rotation-matrix.png">
 Rotation Matrix
 
 Rotations can also be performed about an arbitrary axis. This can be done in the following manner:
