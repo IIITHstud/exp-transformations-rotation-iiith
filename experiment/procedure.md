@@ -1,6 +1,27 @@
-1. This experiment introduces the concept of the rotation transformation.  
-2. The point has a rotation applied to it. Move the slider at the bottom to watch the rotation of the point about origin.  
-3. The tree has a node for the transformation applied to the point. This node shows the rotation axis and the angle by which the point is rotated. As the slider is moved, the transformation animates between the starting and ending points.  
-4. The rotation matrix R, being applied to the point is also shown. Edit the rotation parameters and notice how this matrix gets changed.  
-5. Switch between the two interpretations of rotation at any time by checking the Transform co-ordinate systems checkbox under the Display tab. Use it to compare how the rotation works in both cases. viz., rotation of point with respect to the coordinate axes and the rotation of the coordinate axes wrt the point.  
-6. While rotating along some axes, you may require to switch to a 3 dimensional world. This can be done by checking the 3D checkbox under the Display tab. Drag with the right mouse button to rotate the world.  
+## Experiment Procedure
+
+1. **Introduction to Rotation Transformation:**
+   - This experiment introduces the concept of the [rotation transformation](#).
+
+2. **Interactive Point Rotation:**
+   - A point is selected for the rotation transformation.
+   - Utilize the slider located at the bottom of the interface to [watch the rotation](#) of the point about the origin.
+
+3. **Node Representation of Transformation:**
+   - The experiment incorporates a visual representation through a tree structure.
+   - A node within the tree corresponds to the transformation applied to the point, showing the rotation axis and the angle of rotation.
+   - Move the slider to animate the transformation between the starting and ending points.
+
+4. **Matrix Representation (R):**
+   - The rotation matrix (R) responsible for the transformation is displayed.
+   - Participants can actively engage by editing the rotation parameters, observing how the matrix dynamically adjusts.
+
+5. **Interpretations of Rotation:**
+   - Switch between two interpretations of rotation at any time by checking the [Transform co-ordinate systems checkbox](#) under the Display tab.
+   - Compare how rotation works in both cases: rotation of a point with respect to the coordinate axes and the rotation of the coordinate axes with respect to the point.
+
+6. **Three-Dimensional Rotation:**
+   - For rotations along specific axes, switch to a 3-dimensional world by checking the [3D checkbox](#) under the Display tab.
+   - Drag with the right mouse button to rotate the entire world, offering a more dynamic perspective.
+
+By following these steps, participants will gain hands-on experience in applying rotation transformations, understanding the associated matrix operations, and exploring the nuances of interpreting rotations in different coordinate systems.
