@@ -2,41 +2,7 @@
     "version": 2.0,
     "questions": [
         {
-            "question": "1. What is the primary purpose of a rotation transformation in computer graphics?",
-            "answers": {
-                "a": "To stretch graphical objects",
-                "b": "To change the color of objects",
-                "c": "To describe the motion of a rigid body around a fixed point",
-                "d": "To translate objects along an axis"
-            },
-            "correctAnswer": "c",
-            "explanations": {
-                "a": "Incorrect. Rotation is not associated with stretching objects.",
-                "b": "Incorrect. Rotation does not change the color of objects.",
-                "c": "Correct! Rotation describes the motion of a rigid body around a fixed point.",
-                "d": "Incorrect. Translation, not rotation, is responsible for moving objects along an axis."
-            },
-            "difficulty": "beginner"
-        },
-        {
-            "question": "2. What does a rotation matrix represent in the context of computer graphics?",
-            "answers": {
-                "a": "A matrix for resizing objects",
-                "b": "A matrix for translating objects",
-                "c": "A matrix for rotating points",
-                "d": "A matrix for changing the color of objects"
-            },
-            "correctAnswer": "c",
-            "explanations": {
-                "a": "Incorrect. Rotation matrices are not used for resizing objects.",
-                "b": "Incorrect. Translation matrices are used for moving objects, not rotation matrices.",
-                "c": "Correct! A rotation matrix is used for rotating points.",
-                "d": "Incorrect. Rotation matrices do not change the color of objects."
-            },
-            "difficulty": "beginner"
-        },
-        {
-            "question": "3. Which of the following is a standard operation in graphics applications for rotation?",
+            "question": "1. Which of the following is a standard operation in graphics applications for rotation?",
             "answers": {
                 "a": "Shearing",
                 "b": "Scaling",
@@ -51,40 +17,6 @@
                 "d": "Incorrect. Translation is a separate operation from rotation."
             },
             "difficulty": "beginner"
-        },
-        {
-            "question": "4. What does the rotation matrix for rotating about the Z-axis look like?",
-            "answers": {
-                "a": "[[cos(θ), -sin(θ)], [sin(θ), cos(θ)]]",
-                "b": "[[cos(θ), 0, -sin(θ)], [0, 1, 0], [sin(θ), 0, cos(θ)]]",
-                "c": "[[cos(θ), -sin(θ), 0], [sin(θ), cos(θ), 0], [0, 0, 1]]",
-                "d": "[[1, 0, 0], [0, cos(θ), -sin(θ)], [0, sin(θ), cos(θ)]]"
-            },
-            "correctAnswer": "c",
-            "explanations": {
-                "a": "Incorrect. This matrix represents rotation in 2D, not 3D about the Z-axis.",
-                "b": "Incorrect. This matrix represents rotation about the Y-axis, not the Z-axis.",
-                "c": "Correct! The rotation matrix for the Z-axis in 3D space is [[cos(θ), -sin(θ), 0], [sin(θ), cos(θ), 0], [0, 0, 1]].",
-                "d": "Incorrect. This matrix represents rotation about the X-axis, not the Z-axis."
-            },
-            "difficulty": "intermediate"
-        },
-        {
-            "question": "5. How can rotations be performed about an arbitrary axis in computer graphics?",
-            "answers": {
-                "a": "Directly using the standard rotation matrix",
-                "b": "By applying multiple translations",
-                "c": "By using a combination of rotations about the coordinate axes",
-                "d": "By changing the color of the axis"
-            },
-            "correctAnswer": "c",
-            "explanations": {
-                "a": "Incorrect. The standard rotation matrix is specific to the coordinate axes.",
-                "b": "Incorrect. Multiple translations do not perform rotations about an arbitrary axis.",
-                "c": "Correct! Rotations about an arbitrary axis can be achieved by combining rotations about the coordinate axes.",
-                "d": "Incorrect. Changing the color is unrelated to performing rotations about an arbitrary axis."
-            },
-            "difficulty": "intermediate"
         },
         {
             "question": "6. What is the significance of the steps involving axis alignment in arbitrary axis rotations?",
@@ -104,7 +36,7 @@
             "difficulty": "intermediate"
         },
         {
-            "question": "7. What does the matrix 'M = T<sub>-1</sub>RT' represent in rotation transformations?",
+            "question": "2. What does the matrix 'M = T<sub>-1</sub>RT' represent in rotation transformations?",
             "answers": {
                 "a": "A translation matrix",
                 "b": "A scaling matrix",
@@ -121,7 +53,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "8. Why is translation necessary when rotating about a specific point?",
+            "question": "3. Why is translation necessary when rotating about a specific point?",
             "answers": {
                 "a": "To change the color of points",
                 "b": "To simplify the rotation process",
@@ -138,7 +70,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "9. What is the importance of understanding the frame of reference in rotations?",
+            "question": "4. What is the importance of understanding the frame of reference in rotations?",
             "answers": {
                 "a": "To change the color of objects",
                 "b": "To simplify the rotation process",
@@ -155,7 +87,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "10. How are clockwise and counterclockwise rotations related in a two-dimensional coordinate system?",
+            "question": "5. How are clockwise and counterclockwise rotations related in a two-dimensional coordinate system?",
             "answers": {
                 "a": "They have no relation.",
                 "b": "Clockwise rotation is equivalent to counterclockwise rotation.",
